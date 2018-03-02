@@ -1,0 +1,13 @@
+image: ibmcom/icp-swift-sample:latest
+
+manifests:
+  -
+    image: ibmcom/icp-swift-sample-amd64:latest
+    platform:
+      os: linux
+      architecture: amd64
+  -
+    image: ibmcom/icp-swift-sample-s390x:latest
+    platform:
+      os: linux
+      architecture: s390x

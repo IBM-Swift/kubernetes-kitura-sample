@@ -1,0 +1,4 @@
+ignoreMessages:
+  - ".*Missing required architecture node affinity support"
+  - ".*Incorrect suffix for cpu value"
+  - ".*Parameter is defined but never used in a template: service.name is not used in any template"
