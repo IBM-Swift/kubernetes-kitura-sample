@@ -1,0 +1,7 @@
+# This file contains any values to override (or specify in addition to) the <chartname>/values.yaml during chart
+# installation.
+#
+
+image:
+  repository: ibmcom/icp-swift-sample
+tag: latest
