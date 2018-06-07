@@ -26,7 +26,6 @@ RUN mkdir /Kitura-Server
 
 ADD Sources /Kitura-Server/Sources
 ADD Package.swift /Kitura-Server
-ADD Package.resolved /Kitura-Server
 ADD LICENSE /Kitura-Server
 ADD .swift-version /Kitura-Server
 RUN cd /Kitura-Server && swift build -Xlinker -ldl -Xlinker -lpthread
