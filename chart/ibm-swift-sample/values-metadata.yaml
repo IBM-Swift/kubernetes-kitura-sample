@@ -51,7 +51,6 @@ service:
       immutable: true
       required: true
 
-
 arch:
   __metadata:
   label: "Architecture scheduling preferences"
