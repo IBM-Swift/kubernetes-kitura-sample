@@ -1,0 +1,9 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: KituraInit
+  buildpack: swift_buildpack
+  command: "'KituraInit'"
+  memory: 128M
+  random-route: true
